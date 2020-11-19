@@ -1,0 +1,46 @@
+.call-info {
+  max-width: 60vw;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.call-info .btn {
+  margin-bottom: 2px;
+}
+
+.call-info h1 {
+  font-size: 33px;
+}
+
+.call-info p {
+  color: #545454;
+  line-height: 24px;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.call-info button#delete {
+  background: red;
+}
+
+.call-info button:hover {
+  opacity: 0.7;
+}
+
+.call-info #update {
+  border-radius: 5px;
+  background: #343a40;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 11px;
+  text-decoration: none;
+
+}
+
+.call-info #update:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,7 @@
+.bg {
+  background-image: url('../../assets/6.gif');
+  background-repeat: no-repeat;
+  height: 400px;
+  background-position: center;
+  margin-top: 200px;
+}

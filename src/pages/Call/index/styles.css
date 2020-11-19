@@ -1,0 +1,50 @@
+.call-list {
+  max-width: 90%;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+#fail{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.call-list td#fa {
+  text-align: center;
+}
+
+.call-list td#address {
+  width: 20%;
+  justify-content: center;
+}
+
+.call-list #status {
+  position: absolute;
+  right: 0;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #bdbdbd;
+  border-color: transparent;
+}
+
+.pagination .page-item .page-link {
+  color: #343a40;
+  background-image: transparent;
+  border-color: transparent;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #343a40;
+  color: #fff;
+  background-image: transparent;
+  border-color: transparent;
+  outline: none !important;
+  box-shadow: none;
+}
